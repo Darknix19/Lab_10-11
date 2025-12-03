@@ -31,8 +31,7 @@ public:
         rollNo = r;
     }
 
-    void displayStudentInfo() {
-        displayInfo();
+    void displayRollNo() {
         cout << "Roll No: " << rollNo << endl;
     }
 };
@@ -43,7 +42,8 @@ int main() {
     s.setAge(20);
     s.setRollNo(101);
 
-    s.displayStudentInfo();
+    s.displayInfo();
+    s.displayRollNo();
 
     return 0;
 }
